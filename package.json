@@ -1,0 +1,24 @@
+{
+  "name": "stir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon setup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "node-fetch": "^3.3.2",
+    "proxy-chain": "^2.5.6",
+    "selenium-webdriver": "^4.27.0",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
